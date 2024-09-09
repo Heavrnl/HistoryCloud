@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "历史记录同步",
+  "version": "1.0",
+  "description": "将浏览器历史记录同步到GitHub Gist",
+  "permissions": ["history", "storage"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

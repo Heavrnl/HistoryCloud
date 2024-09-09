@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>历史记录同步</title>
+  <style>
+    body { width: 300px; padding: 10px; }
+    input, button { margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <h2>历史记录同步</h2>
+  <label for="githubToken">GitHub Token:</label>
+  <input type="text" id="githubToken"><br>
+  <label for="gistId">Gist ID:</label>
+  <input type="text" id="gistId"><br>
+  <button id="saveButton">保存设置</button>
+  <button id="uploadButton">上传历史记录</button>
+  <button id="downloadButton">下载历史记录</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
